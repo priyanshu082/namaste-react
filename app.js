@@ -16,7 +16,7 @@
 *   Port Number .
 *   Consistent hashing algorithm .
 *   Zero Configuration .
-*
+*   Tree shaking - Removing unwanted code
 */
 
  const heading1 = React.createElement(
