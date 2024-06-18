@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Searchbar from "./searchbar";
 
 const heading = <h1>hellloooo</h1>;
 
@@ -14,6 +15,7 @@ const Component = () => {
       {Title(a)}
       {heading}
       <h1>components</h1>
+      <Searchbar/>
     </div>
   );
 };
@@ -35,9 +37,13 @@ const Component2 = () =>(
 
     // or we can use <> </>  this is same as React.Fragment
 
+    
 
     //virtual DOM
     //react fibre structure
     //no key<<<<<< index as key (ok ok) <<<< unique key(best practise)
 
+
+    //export default component  it is used to export when there is one thing 
+    //when there is lot of things either we use direct "export const component..." and can import it like {component}
 
