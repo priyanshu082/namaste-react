@@ -2,6 +2,8 @@ import React , {useState} from 'react'
 
 const Searchbar = () => {
     const [text, setText] = useState("")
+    //why do we need these states 
+    //because when there is change in variablesreact doent have any idea about that so it doesnt re-render 
   return (
     <div>
         <input
