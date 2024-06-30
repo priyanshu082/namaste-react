@@ -3,6 +3,10 @@ import React from "react";
 //we cannot create class based component class based component without render method
 class Profile extends React.Component{
 
+    //first constructor is called
+    //than render
+    //than componentdidmount   
+
     //class has a constructor
     //when we create a classs a constructor is called
     constructor(props){
@@ -11,6 +15,10 @@ class Profile extends React.Component{
         this.state={
             count:0,
         }
+    }
+
+    componentDidMount(){
+        console.log("componentDidMount")
     }
 
 
